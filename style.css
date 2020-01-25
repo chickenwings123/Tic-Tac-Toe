@@ -1,0 +1,7 @@
+#gameboard{
+    display: grid
+}
+.tile{
+    border-style: solid;
+    border-color: black;
+}
