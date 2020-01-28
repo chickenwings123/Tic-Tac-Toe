@@ -1,7 +1,15 @@
 #gameboard{
-    display: grid
+    display: grid;
+    height: 350px;
+    width: 350px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5px;
+
 }
 .tile{
     border-style: solid;
     border-color: black;
-}
+    display: grid;
+   }
+   
